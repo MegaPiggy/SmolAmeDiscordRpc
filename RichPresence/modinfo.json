@@ -1,0 +1,7 @@
+﻿{
+    "id": "richpresence",
+    "name": "Discord Rich Presence",
+    "author": "MegaPiggy",
+    "description": "Adds Discord integration into Smol Ame.",
+    "version": "1.0"
+}
