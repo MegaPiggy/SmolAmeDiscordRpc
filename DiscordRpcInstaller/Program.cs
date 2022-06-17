@@ -39,7 +39,7 @@ namespace DiscordRpcInstaller
             form.SetIcon(new System.Drawing.Icon(Assembly.GetExecutingAssembly().GetManifestResourceStream(typeof(Program), "AmeliaDiscord.ico")));
             if (!IsAdmin)
             {
-                MessageBox.Show(form, "Please run this installer as an administrator or it to work!", "Cannot install", MessageBoxButtons.OK, MessageBoxIcon.Error, MessageBoxDefaultButton.Button1);
+                MessageBox.Show(form, "Please run this installer as an administrator for it to work!", "Cannot install", MessageBoxButtons.OK, MessageBoxIcon.Error, MessageBoxDefaultButton.Button1);
                 goto dispose;
             }
             try
